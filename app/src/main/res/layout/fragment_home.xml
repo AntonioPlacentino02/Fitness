@@ -8,12 +8,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- TextView per visualizzare i dettagli dell'utente -->
+    <TextView
+        android:id="@+id/userDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
 
     <!-- FrameLayout per contenere i fragment -->
-    <FrameLayout
-        android:id="@+id/fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+
+    <!-- Button per il logout -->
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
 
 </LinearLayout>
